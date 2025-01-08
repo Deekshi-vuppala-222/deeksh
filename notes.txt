@@ -1,0 +1,22 @@
+looping statements:
+-to execute the block of code repeatedly.
+for loop:executed when we know exact iteration count.
+syntax:for(intialization;condition;updation){
+}
+while:executed whenwe dont know the number of iterations.
+while(condition){
+    }
+do while:
+do{
+}
+while(condition){
+}
+
+-entry controlled loops:for and while
+-exit control loops:do while.
+what is min iteration count of  for loop?
+--1
+what is min iteration count of while?
+--0
+what is min iteration count of do while?
+--1
