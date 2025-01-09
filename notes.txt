@@ -20,3 +20,13 @@ what is min iteration count of while?
 --0
 what is min iteration count of do while?
 --1
+function:
+-function is a block of code used to execute specific task assigned to code
+-function is a non-primitive datatype
+-function can be reusable.
+
+syntax:function function_name(optional parametres){
+                //Statements
+                }
+                function_name(arguments);
+-a value in function is known as arguments.
