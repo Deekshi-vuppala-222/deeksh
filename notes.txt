@@ -30,3 +30,32 @@ syntax:function function_name(optional parametres){
                 }
                 function_name(arguments);
 -a value in function is known as arguments.
+Types of function:
+1.Named function
+2.Anonymous function
+3.Function Expression
+4.Immediate invoke function Expression(IIFE):CAlled only once
+5.Arrow function
+6.Higher order function
+-- A function which accepts another function as an argument.
+7.Callback function:which is passed as an argument to hof function.
+--closure:It is a memory  where functions are bundled together or nested each other by giving an accesibility to the innermost fun to acces the variability to outermost function.
+
+1.Named Function:
+-function which is defined with name and invoked with same name
+2.Anonymous Function:
+-function which does not have a name to declare and to invoke.
+-cannot be executed for itself.
+3.Function Expression:
+-anonymous function body or declaration is assigned and invoked with the same variable
+4.Immediate invoke function Expression(IIFE):
+-once the function is crested imeediately it should be invoked.
+5.Arrow function:
+-es6:ECMA Scripts
+Europian computer Manufacturing association:handles updation related to js
+current version:es14
+-es6 is a stable version.
+-syntax:()=>{};
+
+what is return keyword?
+-

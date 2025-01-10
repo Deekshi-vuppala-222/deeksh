@@ -58,10 +58,52 @@
 // let x=(a,b)=>{console.log(a+b);};
 // x(6,5);
 
-let x=_=>{
-    console.log("Hi");
-    console.log("Hello");
-    console.log("Bye");
+// let x=_=>{
+//     console.log("Hi");
+//     console.log("Hello");
+//     console.log("Bye");
 
-}
-x();
+// }
+// x();
+
+//! return statement:(explicit)
+// function demo(a,b){
+//     return a+b;
+// }
+// let x=demo(5,5);
+// console.log(x);
+
+// let y=(a,b) => a+b;
+// let a=y(10,20);
+// console.log(a);
+//! higher order function:
+// function   hof(a){
+//     return a;
+// }
+// let a=  hof([1,2,3,4,5]);
+// console.log(a);
+
+// function parent(callback){
+//     return callback;
+// }
+// let x=parent(add(5,5));
+// console.log(x);
+
+// function add(a,b){
+//     return a+b;
+// }
+
+//! closure:
+// var a=100;
+// let b="hi";
+// function x(){
+//     var user ="Deeksh";
+//     let company="Capgemini";
+//     const sal=12345
+//     console.log(user);
+//     console.log(company);
+//     console.log(sal);
+//     console.log(a,b);
+
+// }
+// x();
