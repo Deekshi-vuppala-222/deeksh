@@ -59,3 +59,39 @@ current version:es14
 
 what is return keyword?
 -
+
+Arrays:
+
+
+map():
+--It is used to iterate values from the Arrays
+--If we return value ,map() method returns new copied.
+foreach():
+--It is used to iterate the values from the array.
+
+What is Object?
+--Object is an entity which is having an state (Properties) and states.
+--Object is used to store the data in the form of key and value.
+syntax:- let obj={};
+
+note:"this" - It is used to target current executing Object 
+
+JSON:Javascript Object notation
+-JSON is a lightweight technique of js used to transfer data from client to server and viceversa.
+-JSON is always in the form of "String".
+
+
+
+Methods:
+1.JSON.Stringify():It is used to convert js into json Object
+2.JSON.Parse():it is used to convert JSON object into js object.
+
+Asynchronous in js:
+
+-tomperform multiple tasks in js.
+1.setTimeout()
+2.setInterval()
+3.promise
+4.async and await
+note:-by defult, js is synchronous(single threaded).
+
