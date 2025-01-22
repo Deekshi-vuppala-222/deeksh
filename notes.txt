@@ -87,11 +87,26 @@ Methods:
 2.JSON.Parse():it is used to convert JSON object into js object.
 
 Asynchronous in js:
+-to perform multiple tasks in js.
+1.setTimeout():it is a web api used,to perform async operation at specified setTimeout
+syntax;-setTimeout(Callback,timeout)
 
--tomperform multiple tasks in js.
-1.setTimeout()
-2.setInterval()
-3.promise
+2.setInterval():-it is a web api used to perform async operation at specific time.
+syntax:setInterval(callback fn,timeout);
+
+
+3.promise:promise is an object which represents eventual completion or failure of an async operations.
+    states of promise:
+    1.pending state
+    2.fulfilled state
+    3.rejected state
+
+syntax:- let p=new Promise((resolve,reject)=>{});
+-the actual way of exexcuting promise is instance methods,
+        1.then():-it is used to execute the fulfill state
+        2.catch():-it is used to execute the rejected state
+        3.finally()
+
 4.async and await
 note:-by defult, js is synchronous(single threaded).
 
