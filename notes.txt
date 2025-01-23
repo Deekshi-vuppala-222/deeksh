@@ -108,5 +108,20 @@ syntax:- let p=new Promise((resolve,reject)=>{});
         3.finally()
 
 4.async and await
+a
 note:-by defult, js is synchronous(single threaded).
+
+DOM:
+*****
+--Document Object Model
+--DOM is used to add ,remove,update to content in html document.
+--DOM is used to manipulate the content in html document.
+DOM methods:
+*****
+1.document.getElementsById(""):-It is used to select the html element based on"id attribute" value.
+2.document.getElementsByClassName("");
+3.document.getElementsByTagName("");
+4.document.getElementsByName("");
+5.document.querySelector("");
+6.document.querySelectorAll("");
 
